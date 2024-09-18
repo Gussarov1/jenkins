@@ -16,6 +16,7 @@ pipeline {
                     } else {
                         echo "Second repository directory not found!"
                     }
+                    sh 'sleep 600'
                 }
             }
         }
